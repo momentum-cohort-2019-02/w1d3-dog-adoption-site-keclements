@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Happy Valley Shelter</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700" rel="stylesheet">
+    <link href="shelter.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>Happy Valley Shelter</h1>
+    </header>
+
+    <main>
+        <h2>Adopt a Dog</h2>
+
+        <p>If you are interested in adopting one of our animals, please fill out our <a href="">online adoption form</a>.</p>
+
+        <section class="selector">
+            <h3>Show me dogs that are</h3>
+            <div class="fieldsets">
+
+                <fieldset class="set">
+                    <legend>Gender</legend>
+                    <input type="radio" id="male" name="male">
+                    <label for="male">Male</label> <br/>
+                    <input type="radio" id="female" name="female">
+                    <label for="female">Female</label> <br/>
+                    <input type="radio" id="All" name="All">
+                    <label for="All">All</label> <br/>
+                </fieldset>
+
+                <fieldset class="set">
+                    <legend>Age</legend>
+                    <input type="radio" id="Puppy" name="Puppy">
+                    <label for="Puppy">Puppy</label> <br/>
+                    <input type="radio" id="Young" name="Young">
+                    <label for="Young">Young</label> <br/>
+                    <input type="radio" id="Adult" name="Adult">
+                    <label for="Adult">Adult</label> <br/>
+                    <input type="radio" id="Senior" name="Senior">
+                    <label for="Senior">Senior</label> <br/>
+                    <input type="radio" id="All" name="All">
+                    <label for="All">All</label> <br/>
+                </fieldset>
+
+                <fieldset class="set">
+                    <legend>Size</legend>
+                    <input type="radio" id="Tiny" name="Tiny">
+                    <label for="Tiny">Tiny</label> <br/>
+                    <input type="radio" id="Small" name="Small">
+                    <label for="Small">Small</label> <br/>
+                    <input type="radio" id="Medium" name="Medium">
+                    <label for="Medium">Medium</label> <br/>
+                    <input type="radio" id="Large" name="Large">
+                    <label for="Large">Large</label> <br/>
+                </fieldset>
+
+                <fieldset class="set">
+                    <legend>Personality Traits</legend>
+                    <input type="radio" id="Easygoing" name="Easygoing">
+                    <label for="Easygoing">Easygoing</label> <br/>
+                    <input type="radio" id="Energetic" name="Energetic">
+                    <label for="Energetic">Energetic</label> <br/>
+                    <input type="radio" id="Good with kids" name="Good with kids">
+                    <label for="Good with kids">Good with kids</label> <br/>
+                    <input type="radio" id="Good with other dogs" name="Good with other dogs">
+                    <label for="Good with other dogs">Good with other dogs</label> <br/>
+                    <input type="radio" id="Good with cats" name="Good with cats">
+                    <label for="Good with cats">Good with cats</label> <br/>
+                </fieldset>
+
+            </div>
+        </section>
+
+        
+        <div class="dog-list">
+            <div class="dog">
+                <img class="dog-pic" src="starter_files/images/beans.jpg">
+                <br>
+                <h3 class="dog-name">Beans</h3>
+                <div class="dog-stats">
+                    <p class="dog-tag">Adult</p>
+                    <p class="dog-tag">Male</p>
+                    <p class="dog-tag">Easygoing</p>
+                    <p class="dog-tag">Medium</p>
+                    <p class="dog-tag">Good with cats</p>
+                </div>
+                <br>
+            </div>
+
+            <div class="dog">    
+                <img class="dog-pic" src="starter_files/images/boston-terrier.jpg">
+                <br>
+                <h3 class="dog-name">Zelda</h3>
+                <div class="dog-stats">
+                    <p class="dog-tag">Senior</p>
+                    <p class="dog-tag">Female</p>
+                    <p class="dog-tag">Small</p>
+                    <p class="dog-tag">Easygoing</p>
+                    <p class="dog-tag">Good with kids</p>
+                    <p class="dog-tag">Good with other dogs</p>
+                </div>
+                <br>
+            </div>
+
+            <div class="dog">
+                <img class="dog-pic" src="starter_files/images/boxer.jpg">
+                <br>
+                <h3 class="dog-name">Baby</h3>
+                <div class="dog-stats">
+                    <p class="dog-tag">Young</p>
+                    <p class="dog-tag">Female</p>
+                    <p class="dog-tag">Large</p>
+                    <p class="dog-tag">Energetic</p>
+                    <p class="dog-tag">Good with kids</p>
+                    <p class="dog-tag">Good with other dogs</p>
+                </div>
+                <br>
+            </div>
+
+            <div class="dog">
+                <img class="dog-pic" src="starter_files/images/golden-lab.jpg">
+                <br>
+                <h3 class="dog-name">Tom-Tom</h3>
+                <div class="dog-stats">
+                    <p class="dog-tag">Young</p>
+                    <p class="dog-tag">Male</p>
+                    <p class="dog-tag">Large</p>
+                    <p class="dog-tag">Energetic</p>
+                    <p class="dog-tag">Good with kids</p>
+                    <p class="dog-tag">Good with other dogs</p>
+                    <p class="dog-tag">Good with cats</p>
+                </div>
+                <br>
+            </div>
+
+            <div class="dog">
+                <img class="dog-pic" src="starter_files/images/little-dog.jpg">
+                <br>
+                <h3 class="dog-name">Marco</h3>
+                <div class="dog-stats">
+                    <p class="dog-tag">Adult</p>
+                    <p class="dog-tag">Male</p>
+                    <p class="dog-tag">Small</p>
+                    <p class="dog-tag">Energetic</p>
+                </div>
+                <br>
+            </div>
+
+            <div class="dog">
+                <img class="dog-pic" src="starter_files/images/old-shaggy.jpg">
+                <br>
+                <h3 class="dog-name">Shackleton</h3>
+                <div class="dog-stats">
+                    <p class="dog-tag">Adult</p>
+                    <p class="dog-tag">Male</p>
+                    <p class="dog-tag">Medium</p>
+                    <p class="dog-tag">Easygoing</p>
+                    <p class="dog-tag">Energetic</p>
+                    <p class="dog-tag">Good with kids</p>
+                    <p class="dog-tag">Good with other dogs</p>
+                    <p class="dog-tag">Good with cats</p>
+                </div>
+                <br>
+            </div>
+
+            <div class="dog">
+                <img class="dog-pic" src="starter_files/images/shih-tzu.jpg">
+                <br>
+                <h3 class="dog-name">Midge</h3>
+                <div class="dog-stats">
+                    <p class="dog-tag">Adult</p>
+                    <p class="dog-tag">Female</p>
+                    <p class="dog-tag">Small</p>
+                    <p class="dog-tag">Easygoing</p>
+                    <p class="dog-tag">Good with kids</p>
+                </div>
+                <br>
+            </div>
+
+            <div class="dog">
+                <img class="dog-pic" src="starter_files/images/young-bulldog.jpg">
+                <br>
+                <h3 class="dog-name">Ladybird</h3>
+                <div class="dog-stats">
+                    <p class="dog-tag">Young</p>
+                    <p class="dog-tag">Female</p>
+                    <p class="dog-tag">Large</p>
+                    <p class="dog-tag">Easygoing</p>
+                    <p class="dog-tag">Energetic</p>
+                    <p class="dog-tag">Good with kids</p>
+                    <p class="dog-tag">Good with other dogs</p>
+                    <p class="dog-tag">Good with cats</p>
+                </div>
+                <br>
+            </div>
+
+            <div class="dog">
+                <img class="dog-pic" src="starter_files/images/young-peppy.jpg">
+                <br>
+                <h3 class="dog-name">Mina</h3>
+                <div class="dog-stats">
+                    <p class="dog-tag">Puppy</p>
+                    <p class="dog-tag">Female</p>
+                    <p class="dog-tag">Medium</p>
+                    <p class="dog-tag">Energetic</p>
+                    <p class="dog-tag">Good with kids</p>
+                    <p class="dog-tag">Good with other dogs</p>
+                    <p class="dog-tag">Good with cats</p>
+                </div>
+                <br>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="foot1">
+            <div class="foot-background"></div>
+            <p class="foot-text">Donate</p>
+        </div>
+
+        <div class="foot2">
+            <div class="foot-background"></div>
+            <p class="foot-text">Volunteer</p>
+        </div>
+
+        <div class="foot3">
+            <div class="foot-background"></div>
+            <p class="foot-text">Location</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+

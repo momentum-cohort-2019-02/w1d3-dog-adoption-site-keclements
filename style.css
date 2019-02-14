@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.background1 {
+    background-color: rgb(242 242 242);
+    font-family: "Open Sans";
+    font-size: 15px;
+}
+
+.background2 {
+    background-color: #FFFFFF;
+    width: 62rem;
+    margin: auto;
+}
+
+.top_banner {
+    background-color: #0A3E73;
+    border-bottom: 2px solid #8DDEEE;    
+    color: #FFFFFF;
+    padding: 2rem 0 2rem 3rem;
+}
+
+.main_section {
+    padding: 0 2rem;
+}
+
+.adopt_header {
+    padding: 1rem 0;
+}
+
+.intro {
+    padding: 0 0 1rem 0;
+}
+
+.pup_rows {
+    display: flex;
+    justify-content: space-evenly;
+    flex-shrink: 1;
+    width: 46rem;
+    margin: auto;
+}
+
+.preference_head {
+    background-color: rgb(242 242 242);
+    padding: 15px 0 15px 1rem;
+}
+.available_dogs {
+    display: flex;
+    flex-direction: column;
+}
+
+.user_preferences {
+    display: flex;
+    background-color: rgb(242 242 242);
+    padding: 0 0 1rem 1rem;
+}
+
+.user_choice{
+    width: 8rem;
+}
+
+.dog {
+    margin: 1rem;
+    font-family: "Oswald";
+}
+
+.pup_pic {
+    width: 18rem;
+}
+
+
+.descriptor_group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dogtrait {
+    font-family: "Open Sans";
+    font-size: 9px;
+    background-color: #8DDEEE;
+    border-radius: 100px;
+    padding: 4px;
+    margin: 2px;
+
+.footer {
+    display: flex;
+    flex: 1;
+    width: 62rem;
+}
+
+.foot_menu {
+    color: #FFFFFF;
+    position: relative;
+}
+
+.menu_pic {
+    width: 331px;
+    height: 15rem;
+}
+
+.foot_menu_title {
+    position: absolute;
+    bottom: 50%;
+    left: 100px;
+}

@@ -1,99 +1,188 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   
-   <!-- <link href="styles/style.css" rel="stylesheet" type="text/css"> -->
-    <title>Adoption</title>
-</head>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Dog Adoption</title>
+    </head>
 
-<body>
-    <header>
-        <h1>Happy Valley Shelter</h1>
-    </header>
-    <article>
-        <p>If you are interested in adopting one of our animals, please fill out our online <a href="./fomr">oneline adoption form</a></p>
-    <div>
-        <h3>Show me the dogs</h3>
-        <section>
-            <header>
-            <div class="gender>
-            <input type="radio" name="gender" value="female">Female <br>
-            <input type="radio" name="gender" value="maler">Male<br>
-            <input type="radio" name="gender" value="all">All<br> 
-        </header>
-        <div id="age"></div>
-            <h3>Age</h3>
-            <input type="radio" name="age" value="Puppy">Puppy <br>
-            <input type="radio" name="age" value="Young">Young <br>
-            <input type="radio" name="age" value="Adult">Adult<br>
-            <input type="radio" name="age" value="Senior">Senior<br>
-            <input type="radio" name="age" value="All">All<br>
-        </div>
-        <div id="dogsize">
-            <h3>Dog Size</h3>
-            <input type="checkbox" id="tiny" name="size" value="Tiny">Tiny<br>
-            <input type="checkbox" id="small" name="size" value="Small">Small<br>
-            <input type="checkbox" id="Medium" name="size" value="Tiny">Mediumy<br>
-            <input type="checkbox" id="Large" name="size" value="Small">Large<br>
-        </div id="personalitytraits"
-            <h3>Personality Traits</h3>
-            <input type="checkbox" name="personality" value="Easygoing">Easygoing<br>
-            <input type="checkbox" name="personality" value="Energetic">Energetic<br>
-            <input type="checkbox" name="personality" value="Good with Kids">Good with Kids<br>
-            <input type="checkbox" name="personality" value="Good with dogs ">Good with dogs <br>
-            <input type="checkbox" name="personality" value="Good with Cats">Good with cats<br> `
-        </div>
-    </section class="adoptable-dogs">
-        <div class="dog_details">
-         <img src="starter_files/images/beans.jpg"><br>
-         <strong>Beans</strong>
-         <ol id="dog_details">
-             <li>age</li>
-             <li>Male</li>
-             Easygoing
-             Good with Cats
-         </p>
-         </div>
-         <div class="dog_details">
-             <img src="starter_files/images/boston-terrier.jpg">
-             <strong>Zelda</strong>
-             <p>Senior
-                Female, Small , Easygoing, Good with Kids, Good with other dogs
-             </p>
-         </div>
-         <div class="dog_details">
-             <img src="starter_files/images/boxer.jpg">
-             <p>Baby</p>
-         </div>
-         <div class="dog_details">   
-            <div id="TomTom">
-             <img src="starter_files/images/golden-lab.jpg"><h3>Tom-Tom</h3>
-             <p>Young, male, energetic, goofd with Kids, Good with Other dogs, Good wiht Cats</p>
-         </div>
-         <div class="dog_details">
-            <div id="Marce>">
-                <img src="starter_files/images/little-dog.jpg">
-                <h3>Marce</h3>
-                <p>Adult, male, small, energetic</p>
+    <body>
+        <div class="background1">
+            <div class="background2">
+                <h1 class="top_banner">Happy Valley Shelter</h1>
+                <div class="main_section">
+                    <div class="intro">
+                        <h2 class="adopt_header">Adopt a Dog</h2>
+                        <p class="intro">If you are interested in adopting one of our dogs, please fill out our <a href="" class="form_link">online adoption form.</a></p>
+                    </div>
+                    <h3 class="preference_head">Show me dogs that are</h3>
+                    <div class="user_preferences">                        
+                        <form class="user_choice gender">
+                            <h4 class="form_title">Gender</h4>
+                            <input type="radio" name="gender" value="Male"> Male<br>
+                            <input type="radio" name="gender" value="Female"> Female<br>
+                            <input type="radio" name="gender" value="All"> All
+                        </form>
+                        <form class="user_choice age">
+                            <h4 class="form_title">Age</h4>
+                            <input type="radio" name="age" value="Young"> Young<br>
+                            <input type="radio" name="age" value="Puppy"> Puppy<br>
+                            <input type="radio" name="age" value="Adult"> Adult<br>
+                            <input type="radio" name="age" value="Senior"> Senior<br>
+                            <input type="radio" name="age" value="All"> All
+                        </form>
+                        <form class="user_choice size">
+                            <h4 class="form_title">Size</h4>
+                            <input class="size_check" type="checkbox" name="size1" value="Tiny"> Tiny<br>
+                            <input class="size_check" type="checkbox" name="size2" value="small"> Small<br>
+                            <input class="size_check" type="checkbox" name="size3" value="medium"> Medium<br>
+                            <input class="size_check" type="checkbox" name="size4" value="large"> Large
+                        </form>
+                        <form class="preference_form personality">
+                            <h4 class="form_title">Personality Traits</h4>
+                            <input class="trait_check" type="checkbox" name="trait1" value="easy_going"> Easy Going<br>
+                            <input class="trait_check" type="checkbox" name="trait2" value="energetic"> Energetic<br>
+                            <input class="trait_check" type="checkbox" name="trait3" value="with_kids"> Good with kids<br>
+                            <input class="trait_check" type="checkbox" name="trait4" value="with_dogs"> Good with other dogs<br>
+                            <input class="trait_check" type="checkbox" name="trait5" value="with_cats"> Good with cats<br>
+                        </form>
+                    </div>
+                    <div class="available_dogs">
+                        <div class="pup_rows">
+                            <div class="dog">
+                                <img class="pup_pic" src="starter_files/images/old-shaggy.jpg?raw=true" alt="Beans"><br>
+                                <h3 class="dog_name">Beans</h3>
+                                <div class="descriptor_group">
+                                    <span class="dogtrait descriptor_age">Adult</span>
+                                    <span class="dogtrait descriptor_size">Medium</span>
+                                    <span class="dogtrait descriptor_gender">Male</span>
+                                    <span class="dogtrait descriptor_trait">Good with cats</span>
+                                    <span class="dogtrait descriptor_trait">Easygoing</span>
+                                </div>
+                            </div>
+                            <div class="dog">
+                                <img class="pup_pic" src="starter_files/images/beans.jpg?raw=true" alt="Zelda"><br>
+                                <h3 class="dog_name">Zelda</h3>
+                                <div class="descriptor_group">
+                                    <span class="dogtrait descriptor_age">Senior</span>
+                                    <span class="dogtrait descriptor_size">Small</span>
+                                    <span class="dogtrait descriptor_gender">Female</span>
+                                    <span class="dogtrait descriptor_trait">Good with kids</span>
+                                    <span class="dogtrait descriptor_trait">Good with other dogs</span>
+                                    <span class="dogtrait descriptor_trait">Easygoing</span>
+                                </div>
+                            </div>
+                            <div class="dog">
+                                <img class="pup_pic" src="starter_files/images/boston-terrier.jpg?raw=true" alt="Baby"><br>
+                                <h3 class="dog_name">Baby</h3>
+                                <div class="descriptor_group">
+                                    <span class="dogtrait descriptor_age">Young</span>
+                                    <span class="dogtrait descriptor_size">Large</span>
+                                    <span class="dogtrait descriptor_gender">Female</span>
+                                    <span class="dogtrait descriptor_trait">Good with kids</span>
+                                    <span class="dogtrait descriptor_trait">Good with other dogs</span>
+                                    <span class="dogtrait descriptor_trait">Energetic</span>
+                                </div>
+                            </div> 
+                        </div> 
+                        <div class="pup_rows"> 
+                            <div class="dog">
+                                <img class="pup_pic" src="starter_files/images/golden-lab.jpg?raw=true alt="Tom-tom"><br>
+                                <h3 class="dog_name">Tom-tom</h3>
+                                <div class="descriptor_group">
+                                    <span class="dogtrait descriptor_age">Young</span>
+                                    <span class="dogtrait descriptor_size">Large</span>
+                                    <span class="dogtrait descriptor_gender">Male</span>
+                                    <span class="dogtrait descriptor_trait">Good with cats</span>
+                                    <span class="dogtrait descriptor_trait">Good with kids</span>
+                                    <span class="dogtrait descriptor_trait">Good with other dogs</span>
+                                    <span class="dogtrait descriptor_trait">Energetic</span>
+                                </div>
+                            </div> 
+                            <div class="dog">
+                                <img class="pup_pic" src="starter_files/images/little-dog.jpg?raw=true" alt="Marco"><br>
+                                <h3 class="dog_name">Marco</h3>
+                                <div class="descriptor_group">
+                                    <span class="dogtrait descriptor_age">Adult</span>
+                                    <span class="dogtrait descriptor_size">Small</span>
+                                    <span class="dogtrait descriptor_gender">Male</span>
+                                    <span class="dogtrait descriptor_trait">Energetic</span>
+                                </div>
+                            </div> 
+                            <div class="dog">
+                                <img class="pup_pic" src="starter_files/images/old-shaggy.jpg?raw=true" alt="Shackleton"><br>
+                                <h3 class="dog_name">Shackleton</h3>
+                                <div class="descriptor_group">
+                                    <span class="dogtrait descriptor_age">Adult</span>
+                                    <span class="dogtrait descriptor_size">Medium</span>
+                                    <span class="dogtrait descriptor_gender">Male</span>
+                                    <span class="dogtrait descriptor_trait">Good with cats</span>
+                                    <span class="dogtrait descriptor_trait">Good with kids</span>
+                                    <span class="dogtrait descriptor_trait">Good with other dogs</span>
+                                    <span class="dogtrait descriptor_trait">Energetic</span>
+                                    <span class="dogtrait descriptor_trait">Easygoing</span>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="pup_rows">
+                            <div class="dog">
+                                <img class="pup_pic" src="starter_files/images/shih-tzu.jpg?raw=true" alt="Midge"><br>
+                                <h3 class="dog_name">Midge</h3>
+                                <div class="descriptor_group">
+                                    <span class="dogtrait descriptor_age">Adult</span>
+                                    <span class="dogtrait descriptor_size">Small</span>
+                                    <span class="dogtrait descriptor_gender">Femail</span>
+                                    <span class="dogtrait descriptor_trait">Good with kids</span>
+                                    <span class="dogtrait descriptor_trait">Easygoing</span>
+                                </div>
+                            </div> 
+                            <div class="dog">
+                                <img class="pup_pic" src="https://raw.githubusercontent.com/momentum-cohort-2019-02/w1d3-dog-adoption-site-keclements/master/starter_files/images/young-bulldog.jpg" alt="Ladybird"><br>
+                                <h3 class="dog_name">Ladybird</h3>
+                                <div class="descriptor_group">
+                                    <span class="dogtrait descriptor_age">Young</span>
+                                    <span class="dogtrait descriptor_size">Large</span>
+                                    <span class="dogtrait descriptor_gender">Female</span>
+                                    <span class="dogtrait descriptor_trait">Good with cats</span>
+                                    <span class="dogtrait descriptor_trait">Good with other dogs</span>
+                                    <span class="dogtrait descriptor_trait">Good with kids</span>
+                                    <span class="dogtrait descriptor_trait">Energetic</span>
+                                    <span class="dogtrait descriptor_trait">Easygoing</span>
+                                </div>
+                            </div> 
+                            <div class="dog">
+                                <img class="pup_pic" src="starter_files/images/young-peppy.jpg?raw=true" alt="Mina"><br>
+                                <h3 class="dog_name">Mina</h3>
+                                <div class="descriptor_group">
+                                    <span class="dogtrait descriptor_age">Puppy</span>
+                                    <span class="dogtrait descriptor_size">Medium</span>
+                                    <span class="dogtrait descriptor_gender">Female</span>
+                                    <span class="dogtrait descriptor_trait">Good with cats</span>
+                                    <span class="dogtrait descriptor_trait">Good with other dogs</span>
+                                    <span class="dogtrait descriptor_trait">Good with kids</span>
+                                    <span class="dogtrait descriptor_trait">Energetic</span>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="foot_menu">
+                        <a href=""><img class="menu_pic" src="starter_files/images/donate.jpg?raw=true" alt="Donat"></a>
+                        <h2 class="foot_menu_title">Donate</h2>
+                    </div>
+                    <div class="foot_menu">
+                        <a href=""><img class="menu_pic" src="starter_files/images/volunteer.jpg" alt="Donat"></a>
+                        <h2 class="foot_menu_title">Volunteer</h2>
+                    </div>
+                    <div class="foot_menu">
+                        <a href="https://www.cnn.com"><img class="menu_pic" src="starter_files/images/donate.jpg?raw=true" alt="Donate"></a>
+                        <h2 class="foot_menu_title">Our Location</h2>
+                    </div>
+                    <div class="purple_hue">p</div>
+                </div>
             </div>
         </div>
-            <!-- shackleton, midge, ladybird, Mina-->
-            <div class="dog_details">
-
-            </div>
-        
-    </section>
-
-
-    <section>
-
-
-
-    </section>
-</body>
+    </body>
 </html>
-
-<!-- -->
+																																											
