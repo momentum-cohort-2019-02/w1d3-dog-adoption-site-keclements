@@ -1,7 +1,11 @@
+
+/* What is wrong with layout now */
+/* fix needed or rewrite */
+
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 0; 
 }
 
 .background1 {
