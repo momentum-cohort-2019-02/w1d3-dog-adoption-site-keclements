@@ -8,8 +8,11 @@
     background-color: rgb(242 242 242);
     font-family: "Open Sans";
     font-size: 15px;
+    display: -webkit-flex; /_ Safari _/
+    display: flex;
 }
-
+.flex-container {
+    
 .background2 {
     background-color: #FFFFFF;
     width: 62rem;
